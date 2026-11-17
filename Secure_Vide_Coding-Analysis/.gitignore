@@ -1,0 +1,20 @@
+# Environments and dependencies
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.pytest_cache/
+
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Customer data (contains personal data) and generated output
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+outbox/
+
+# Local agent settings
+.claude/settings.local.json

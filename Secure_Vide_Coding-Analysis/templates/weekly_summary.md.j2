@@ -1,0 +1,24 @@
+# Weekly customer summary
+
+Customers in scope: {{ total }} ({{ cancelled }} cancelled)
+Cancellation rate: {{ cancellation_rate }} (cumulative over all customers in the database)
+
+## Main reasons customers cancel
+{% for d in drivers %}- {{ d }}
+{% endfor %}
+## Likely causes
+{% for c in causes %}- {{ c.title }}{% if c.kind == "lead" %} (to check){% endif %}: {{ c.evidence }}
+{% endfor %}
+{{ caveat }}
+{% if files %}
+Files: {{ files | join(", ") }}
+{% endif %}
+## At-risk active customers to contact this week
+Customers are listed by ID only (no personal data in this channel); account managers can look them up in the CRM.
+
+| Customer ID | Plan | Monthly fee (EUR) | Reason |
+|---|---|---|---|
+{% for c in at_risk %}| {{ c.customer_id }} | {{ c.plan }} | {{ c.monthly_fee }} | {{ c.reason }} |
+{% endfor %}
+{% if suspicious %}Data quality: {{ suspicious }} support comment(s) contained instructions aimed at automated tools and were excluded from the analysis. Please review them.
+{% endif %}

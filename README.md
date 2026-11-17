@@ -4,15 +4,21 @@ Focused on data extraction, API integration, and business intelligence visualiza
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure :
 
-* **`API/`** : Scripts and implementations for extracting, processing, and interacting with external data sources via REST APIs.
-* **`Power Bi/`** : Interactive dashboards and reports designed for business intelligence, data modeling, and performance tracking.
-* **`Web Scraping/`** : Automated web scrapers built to collect, clean, and structure raw web data for analysis.
+
+## 🌐 Public Repositories :
+
+* **`Power BI Analytics/`** : End-to-end business intelligence projects implementing star schema modeling alongside automated data cleaning pipelines in Python and Power Query.
+
+* **`Vibe-coding-Analyse/`** : Secure customer churn analysis workflow orchestrated via Claude Code. Engineered with strict guardrails: isolated from external services and restricted to read-only database access (zero write/execute permissions).
+
+* **`Web_Scraping/`** : Multi-source web scraping pipelines engineered to extract, structure, and analyze raw data across diverse online platforms.
 
 ---
 
-## 🛠️ Tech & Tools
+## 🔒 Private Repositories :
 
-* **Data Extraction & Scraping :** Python, APIs, BeautifulSoup / Selenium
-* **Visualization & BI :** Power BI, DAX, Power Query
+* **`Smart_Real_Estate/`** : Automated real estate intelligence pipeline that scrapes multiple sources to aggregate market pricing and generate real-time analytics for the Cyprus property market (Auto-updates every 2 days).
+
+* **`supermarket-tracker/`** : Multi-source web scraping tool that tracks and compares food prices across major supermarkets (Auto-updates on the 5th, 12th, and 20th of each month).

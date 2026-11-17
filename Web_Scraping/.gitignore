@@ -1,0 +1,13 @@
+# Données générées par les notebooks (reproductibles en relançant le scraping)
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/

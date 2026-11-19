@@ -18,6 +18,12 @@ Focused on data extraction, API integration, and business intelligence visualiza
 - [**`Web_Scraping/`**](https://drive.google.com/drive/folders/16ln-rImsqqMSzUiQ4nKW_IOkgesJq5n7?usp=sharing)
 * Multi-source web scraping pipelines engineered to extract, structure, and analyze raw data across diverse online platforms.
 
+- [WildFlix, Movie Recommendation](https://wildflix-data-app.streamlit.app/)
+* An end-to-end movie recommendation engine with interactive filtering and business analytics : TMDB API data, cleaning with pandas, TF-IDF and cosine similarity, deployed as a multilingual Streamlit app.
+
+- [Toys and Models, Executive Dashboard](https://drive.google.com/drive/folders/1xPfRDjTGJdZ2du3sL-_a7A6fpXC9lngQ)
+* A daily-refreshed Power BI executive dashboard for a scale-model retailer : EDA on a relational database, 19 KPIs across HR, sales, finance and supply chain, built with SQL, Python and DAX.
+
 ---
 
 ## 🔒 Private Repositories :
